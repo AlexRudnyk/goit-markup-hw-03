@@ -9,6 +9,30 @@
 body {
   font-family: roboto, sans-serif;
   color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+/* Глобальный сброс стилей */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Studio Styles */
@@ -20,15 +44,9 @@ body {
   text-decoration: none;
   font-size: 26px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.nav-list {
-  list-style-type: none;
 }
 
 .nav-link {
-  text-decoration: none;
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
@@ -96,34 +114,23 @@ body {
   margin: -1px;
 }
 
-.features-list {
-  list-style-type: none;
-}
-
 .features-title {
   font-weight: var(--primary-font-weight);
   line-height: 1.17;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
 }
 
 .features-text {
   color: var(--text-color);
   line-height: 1.71;
   font-size: 14px;
-  letter-spacing: 0.03em;
 }
 
 .examples-title {
   font-weight: var(--primary-font-weight);
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.examples-list {
-  list-style-type: none;
 }
 
 .team {
@@ -134,11 +141,6 @@ body {
   font-weight: var(--primary-font-weight);
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
-}
-
-.team-list {
-  list-style-type: none;
 }
 
 .team-list-title {
@@ -146,7 +148,6 @@ body {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-list-text {
@@ -154,7 +155,6 @@ body {
   line-height: 1.17;
   color: var(--text-color);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .footer {
@@ -166,21 +166,12 @@ body {
   line-height: 1.71;
   color: var(--hero-text-color);
   font-style: normal;
-  letter-spacing: 0.03em;
-}
-
-.footer-list {
-  list-style-type: none;
-  padding-left: 0px;
 }
 
 .footer-link {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  letter-spacing: 0.03em;
-  text-decoration: none;
 }
 
 .footer-link:hover,
@@ -197,6 +188,7 @@ body {
   line-height: 1.63;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border: none;
 }
 
 .btn-portfolio:hover,
@@ -220,6 +212,5 @@ body {
 .portfolio-text {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
