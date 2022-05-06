@@ -37,6 +37,15 @@ a {
 
 /* Studio Styles */
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   outline: 1px solid red;
   align-items: center;
@@ -160,8 +169,6 @@ a {
 
 .features-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-list .item:not(:last-child) {
@@ -182,10 +189,24 @@ a {
   font-size: 14px;
 }
 
+.examples.section {
+  padding-top: 0;
+}
+
 .examples-title {
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: var(--primary-font-weight);
   font-size: 36px;
   line-height: 1.17;
+}
+
+.examples-list {
+  display: flex;
+}
+
+.examples-list .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .team {
