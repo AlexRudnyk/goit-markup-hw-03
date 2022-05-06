@@ -39,7 +39,6 @@ a {
 
 .container {
   outline: 1px solid red;
-  display: flex;
   align-items: center;
   width: 1200px;
   margin-left: auto;
@@ -65,6 +64,9 @@ a {
 
 .nav-list {
   display: flex;
+}
+
+.nav-list.refference {
   margin-left: auto;
 }
 
@@ -156,7 +158,18 @@ a {
   margin: -1px;
 }
 
+.features-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-title {
+  margin-bottom: 10px;
   font-weight: var(--primary-font-weight);
   line-height: 1.17;
   font-size: 14px;
