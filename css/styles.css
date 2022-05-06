@@ -38,7 +38,7 @@ a {
 /* Studio Styles */
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .section {
@@ -209,6 +209,12 @@ a {
   margin-right: 30px;
 }
 
+.examples-img {
+  display: block;
+}
+
+
+
 .team {
   background-color: #f5f4fa;
 }
@@ -235,16 +241,31 @@ a {
 
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logo.down {
+  display: inline-block;
+  margin-right: 0;
+  margin-bottom: 20px;
 }
 
 .address {
+  margin-bottom: 9px;
+
   font-size: 14px;
   line-height: 1.71;
   color: var(--hero-text-color);
   font-style: normal;
 }
 
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
 .footer-link {
+  display: inline-block;
   font-size: 14px;
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
