@@ -47,12 +47,17 @@ a {
 }
 
 .container {
-  align-items: center;
+  outline: 1px solid red;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
 }
 
 .navigation {
@@ -113,6 +118,8 @@ a {
 
 .hero {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
@@ -233,7 +240,11 @@ margin-right: 30px;
 
 .team-img {
   display: block;
-  margin-bottom: 30px;
+}
+
+.team-img-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list-title {
@@ -353,6 +364,7 @@ margin-right: 30px;
 }
 
 .portfolio-title {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
