@@ -47,7 +47,6 @@ a {
 }
 
 .container {
-  outline: 1px solid red;
   align-items: center;
   width: 1200px;
   margin-left: auto;
@@ -117,7 +116,6 @@ a {
 }
 
 .hero-container {
-  outline: 1px solid red;
   text-align: center;
   width: 1200px;
   margin-left: auto;
@@ -213,19 +211,33 @@ a {
   display: block;
 }
 
-
-
 .team {
   background-color: #f5f4fa;
 }
 
 .team-title {
+  margin-bottom: 50px;
+  text-align: center;
   font-weight: var(--primary-font-weight);
   font-size: 36px;
   line-height: 1.17;
 }
 
+.team-list {
+  display: flex;
+}
+
+.team-list .item:not(:last-child) {
+margin-right: 30px;
+}
+
+.team-img {
+  display: block;
+  margin-bottom: 30px;
+}
+
 .team-list-title {
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
