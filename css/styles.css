@@ -37,7 +37,26 @@ a {
 
 /* Studio Styles */
 
+.container {
+
+outline: 1px solid red;
+
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
+  margin-right: 92px;
   font-family: raleway, sans-serif;
   font-weight: 700;
   color: var(--accent-color);
@@ -46,7 +65,19 @@ a {
   line-height: 1.17;
 }
 
+.nav-list {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-link {
+  display: inline-block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-text-color);
   font-size: 14px;
   font-weight: 500;
