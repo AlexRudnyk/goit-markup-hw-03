@@ -175,6 +175,11 @@ a {
   display: flex;
 }
 
+.features-list .item {
+
+  width: 270px;
+}
+
 .features-list .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -363,6 +368,7 @@ a {
 
 .portfolio-title {
   margin-bottom: 4px;
+  color: var(--primary-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
